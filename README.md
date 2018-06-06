@@ -67,7 +67,7 @@ make compose/up
 Bring up a complete environment: (*with* secrets)
 
 ```
-aws-vault exec ps-dev-admin -- chamber exec local -- make compose/up
+aws-vault exec cp-dev-admin -- chamber exec local -- make compose/up
 ```
 
 **NOTE**: `local` represents a secrets service namespace. Multiple namespaces can be specified. 

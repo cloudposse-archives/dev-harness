@@ -1,0 +1,16 @@
+## Add a tool project
+projects/add/tool/%:
+	git submodule add git@github.com:cloudposse/$(ARG3).git projects/tools/$(ARG3)
+
+## Add a terraform project
+projects/add/terraform/%:
+	git submodule add git@github.com:cloudposse/$(ARG3).git projects/$(ARG2)/$(ARG3)
+
+## Add a container project
+projects/add/container/%:
+	git submodule add git@github.com:cloudposse/$(ARG3).git projects/containers/$(ARG3)
+
+## Add a kubernetes project
+projects/add/kubernetes/%:
+	git submodule add git@github.com:cloudposse/$(ARG3).git projects/$(ARG2)/$(ARG3)
+

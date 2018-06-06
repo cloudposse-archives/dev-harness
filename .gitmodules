@@ -55,3 +55,12 @@
 [submodule "projects/tools/pfsense-cli"]
 	path = projects/tools/pfsense-cli
 	url = git@github.com:cloudposse/pfsense-cli.git
+[submodule "projects/terraform/terraform-aws-ec2-instance-group"]
+	path = projects/terraform/terraform-aws-ec2-instance-group
+	url = git@github.com:cloudposse/terraform-aws-ec2-instance-group.git
+[submodule "projects/terraform/terraform-aws-dynamodb"]
+	path = projects/terraform/terraform-aws-dynamodb
+	url = git@github.com:cloudposse/terraform-aws-dynamodb.git
+[submodule "projects/terraform/terraform-aws-dynamodb-autoscaler"]
+	path = projects/terraform/terraform-aws-dynamodb-autoscaler
+	url = git@github.com:cloudposse/terraform-aws-dynamodb-autoscaler.git

@@ -1,0 +1,10 @@
+GITHUB_ORG ?= cloudposse
+GITHUB_API_LIMIT ?= 100
+GITHUB_API_PAGES ?= 3
+
+## List all public git repos in GitHub organization
+git/list-repos:
+	@seq $(GITHUB_API_PAGES) | \
+	  xargs -I'{}' curl -sSL 'https://api.github.com/orgs/$(GITHUB_ORG)/repos?per_page=$(GITHUB_API_LIMIT)&page={}' | \
+	  jq -r '.[] | .name' | \
+	  sort
