@@ -1,0 +1,66 @@
+[submodule "projects/docs"]
+	path = projects/docs
+	url = git@github.com:cloudposse/docs.git
+[submodule "projects/geodesic"]
+	path = projects/geodesic
+	url = git@github.com:cloudposse/geodesic.git
+[submodule "projects/tools/sudosh"]
+	path = projects/tools/sudosh
+	url = git@github.com:cloudposse/sudosh.git
+[submodule "projects/tools/github-status-updater"]
+	path = projects/tools/github-status-updater
+	url = git@github.com:cloudposse/github-status-updater.git
+[submodule "projects/tools/slack-notifier"]
+	path = projects/tools/slack-notifier
+	url = git@github.com:cloudposse/slack-notifier.git
+[submodule "projects/tools/github-authorized-keys"]
+	path = projects/tools/github-authorized-keys
+	url = git@github.com:cloudposse/github-authorized-keys.git
+[submodule "projects/tools/load-testing"]
+	path = projects/tools/load-testing
+	url = git@github.com:cloudposse/load-testing.git
+[submodule "projects/terraform/terraform-aws-ecs-container-definition"]
+	path = projects/terraform/terraform-aws-ecs-container-definition
+	url = git@github.com:cloudposse/terraform-aws-ecs-container-definition.git
+[submodule "projects/terraform/terraform-root-modules"]
+	path = projects/terraform/terraform-root-modules
+	url = git@github.com:cloudposse/terraform-root-modules.git
+[submodule "projects/terraform/terraform-aws-lb-s3-bucket"]
+	path = projects/terraform/terraform-aws-lb-s3-bucket
+	url = git@github.com:cloudposse/terraform-aws-lb-s3-bucket.git
+[submodule "projects/terraform/terraform-aws-ec2-instance"]
+	path = projects/terraform/terraform-aws-ec2-instance
+	url = git@github.com:cloudposse/terraform-aws-ec2-instance.git
+[submodule "projects/terraform/terraform-aws-rds-cluster"]
+	path = projects/terraform/terraform-aws-rds-cluster
+	url = git@github.com:cloudposse/terraform-aws-rds-cluster.git
+[submodule "projects/tools/build-harness"]
+	path = projects/tools/build-harness
+	url = git@github.com:cloudposse/build-harness.git
+[submodule "projects/containers/charts"]
+	path = projects/containers/charts
+	url = git@github.com:cloudposse/charts.git
+[submodule "projects/tools/copyright-header"]
+	path = projects/tools/copyright-header
+	url = git@github.com:cloudposse/copyright-header.git
+[submodule "projects/terraform/terraform-null-label"]
+	path = projects/terraform/terraform-null-label
+	url = git@github.com:cloudposse/terraform-null-label.git
+[submodule "projects/terraform/terraform-terraform-label"]
+	path = projects/terraform/terraform-terraform-label
+	url = git@github.com:cloudposse/terraform-terraform-label.git
+[submodule "projects/tools/github-commenter"]
+	path = projects/tools/github-commenter
+	url = git@github.com:cloudposse/github-commenter.git
+[submodule "projects/tools/pfsense-cli"]
+	path = projects/tools/pfsense-cli
+	url = git@github.com:cloudposse/pfsense-cli.git
+[submodule "projects/terraform/terraform-aws-ec2-instance-group"]
+	path = projects/terraform/terraform-aws-ec2-instance-group
+	url = git@github.com:cloudposse/terraform-aws-ec2-instance-group.git
+[submodule "projects/terraform/terraform-aws-dynamodb"]
+	path = projects/terraform/terraform-aws-dynamodb
+	url = git@github.com:cloudposse/terraform-aws-dynamodb.git
+[submodule "projects/terraform/terraform-aws-dynamodb-autoscaler"]
+	path = projects/terraform/terraform-aws-dynamodb-autoscaler
+	url = git@github.com:cloudposse/terraform-aws-dynamodb-autoscaler.git
