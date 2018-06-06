@@ -1,4 +1,6 @@
--include $(shell (which curl >/dev/null && curl -sSL -o .build-harness "https://git.io/build-harness"); echo .build-harness)
+export BUILD_HARNESS_PATH ?= projects/tools/build-harness
+
+include $(BUILD_HARNESS_PATH)/Makefile
 
 # Parse a make target and turn it into parts
 ARG0 = $(word 1,$(subst /, ,$@))

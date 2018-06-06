@@ -13,17 +13,17 @@ This development harness creates a [monorepo](https://docs.cloudposse.com/glossa
 ```
 ├── Makefile                     # Task runner for all commands
 ├── README.md                    # Getting started documentation
-├── build-harness                # Created from `make init`; used to build containers
 ├── docker-compose.yml           # Master compose environment
-├── projects                     # Local checkout of all cloudposse repos supported by the local dev environment
-│   ├── docs                     # Checkout of https://github.com/cloudposse/docs
-│   └── geodesic                 # Checkout of https://github.com/cloudposse/geodesic
-└── tasks                        # Make targets used for 
-    ├── Makefile.codefresh       # Targets used for Codefresh CI/CD
-    ├── Makefile.compose         # Targets relevant for `docker-compose`
-    ├── Makefile.compose.db      # Targets relevant for working with `psql` under docker compose
-    ├── Makefile.helpers         # Helper targets
-    └── Makefile.git             # Targets for interacting with git
+├── projects/                    # Local checkout of all cloudposse repos supported by the local dev environment
+│   ├── docs/                    # Checkout of https://github.com/cloudposse/docs
+│   ├── geodesic/                # Checkout of https://github.com/cloudposse/geodesic
+│   ├── containers/              # Projects that provide docker images
+│   ├── terraform/               # Projects geared towards terraform modules
+│   ├── kubernetes/              # Projects geared towards kubernetes 
+│   └── tools/                   # Projects that provide some utility
+└── tasks/                       # Make targets used for 
+    ├── Makefile.git             # Targets for interacting with git
+    └── Makefile.projects        # Targets for working with projects
 ```
 
 ## Quick Start
