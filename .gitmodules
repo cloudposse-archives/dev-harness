@@ -64,3 +64,273 @@
 [submodule "projects/terraform/terraform-aws-dynamodb-autoscaler"]
 	path = projects/terraform/terraform-aws-dynamodb-autoscaler
 	url = git@github.com:cloudposse/terraform-aws-dynamodb-autoscaler.git
+[submodule "projects/terraform/terraform-aws-acm-request-certificate"]
+	path = projects/terraform/terraform-aws-acm-request-certificate
+	url = git@github.com:cloudposse/terraform-aws-acm-request-certificate.git
+[submodule "projects/terraform/terraform-aws-alb"]
+	path = projects/terraform/terraform-aws-alb
+	url = git@github.com:cloudposse/terraform-aws-alb.git
+[submodule "projects/terraform/terraform-aws-alb-ingress"]
+	path = projects/terraform/terraform-aws-alb-ingress
+	url = git@github.com:cloudposse/terraform-aws-alb-ingress.git
+[submodule "projects/terraform/terraform-aws-alb-target-group-cloudwatch-sns-alarms"]
+	path = projects/terraform/terraform-aws-alb-target-group-cloudwatch-sns-alarms
+	url = git@github.com:cloudposse/terraform-aws-alb-target-group-cloudwatch-sns-alarms.git
+[submodule "projects/terraform/terraform-aws-cicd"]
+	path = projects/terraform/terraform-aws-cicd
+	url = git@github.com:cloudposse/terraform-aws-cicd.git
+[submodule "projects/terraform/terraform-aws-cloudfront-cdn"]
+	path = projects/terraform/terraform-aws-cloudfront-cdn
+	url = git@github.com:cloudposse/terraform-aws-cloudfront-cdn.git
+[submodule "projects/terraform/terraform-aws-cloudfront-s3-cdn"]
+	path = projects/terraform/terraform-aws-cloudfront-s3-cdn
+	url = git@github.com:cloudposse/terraform-aws-cloudfront-s3-cdn.git
+[submodule "projects/terraform/terraform-aws-cloudtrail"]
+	path = projects/terraform/terraform-aws-cloudtrail
+	url = git@github.com:cloudposse/terraform-aws-cloudtrail.git
+[submodule "projects/terraform/terraform-aws-cloudtrail-cloudwatch-alarms"]
+	path = projects/terraform/terraform-aws-cloudtrail-cloudwatch-alarms
+	url = git@github.com:cloudposse/terraform-aws-cloudtrail-cloudwatch-alarms.git
+[submodule "projects/terraform/terraform-aws-cloudtrail-s3-bucket"]
+	path = projects/terraform/terraform-aws-cloudtrail-s3-bucket
+	url = git@github.com:cloudposse/terraform-aws-cloudtrail-s3-bucket.git
+[submodule "projects/terraform/terraform-aws-cloudwatch-flow-logs"]
+	path = projects/terraform/terraform-aws-cloudwatch-flow-logs
+	url = git@github.com:cloudposse/terraform-aws-cloudwatch-flow-logs.git
+[submodule "projects/terraform/terraform-aws-cloudwatch-logs"]
+	path = projects/terraform/terraform-aws-cloudwatch-logs
+	url = git@github.com:cloudposse/terraform-aws-cloudwatch-logs.git
+[submodule "projects/terraform/terraform-aws-cloudwatch-sns-topic-notify"]
+	path = projects/terraform/terraform-aws-cloudwatch-sns-topic-notify
+	url = git@github.com:cloudposse/terraform-aws-cloudwatch-sns-topic-notify.git
+[submodule "projects/terraform/terraform-aws-codebuild"]
+	path = projects/terraform/terraform-aws-codebuild
+	url = git@github.com:cloudposse/terraform-aws-codebuild.git
+[submodule "projects/terraform/terraform-aws-datadog-integration"]
+	path = projects/terraform/terraform-aws-datadog-integration
+	url = git@github.com:cloudposse/terraform-aws-datadog-integration.git
+[submodule "projects/terraform/terraform-aws-dynamic-subnets"]
+	path = projects/terraform/terraform-aws-dynamic-subnets
+	url = git@github.com:cloudposse/terraform-aws-dynamic-subnets.git
+[submodule "projects/terraform/terraform-aws-ec2-admin-server"]
+	path = projects/terraform/terraform-aws-ec2-admin-server
+	url = git@github.com:cloudposse/terraform-aws-ec2-admin-server.git
+[submodule "projects/terraform/terraform-aws-ec2-ami-backup"]
+	path = projects/terraform/terraform-aws-ec2-ami-backup
+	url = git@github.com:cloudposse/terraform-aws-ec2-ami-backup.git
+[submodule "projects/terraform/terraform-aws-ec2-ami-snapshot"]
+	path = projects/terraform/terraform-aws-ec2-ami-snapshot
+	url = git@github.com:cloudposse/terraform-aws-ec2-ami-snapshot.git
+[submodule "projects/terraform/terraform-aws-ec2-autoscale-group"]
+	path = projects/terraform/terraform-aws-ec2-autoscale-group
+	url = git@github.com:cloudposse/terraform-aws-ec2-autoscale-group.git
+[submodule "projects/terraform/terraform-aws-ec2-bastion-server"]
+	path = projects/terraform/terraform-aws-ec2-bastion-server
+	url = git@github.com:cloudposse/terraform-aws-ec2-bastion-server.git
+[submodule "projects/terraform/terraform-aws-ec2-cloudwatch-sns-alarms"]
+	path = projects/terraform/terraform-aws-ec2-cloudwatch-sns-alarms
+	url = git@github.com:cloudposse/terraform-aws-ec2-cloudwatch-sns-alarms.git
+[submodule "projects/terraform/terraform-aws-ecr"]
+	path = projects/terraform/terraform-aws-ecr
+	url = git@github.com:cloudposse/terraform-aws-ecr.git
+[submodule "projects/terraform/terraform-aws-ecs-alb-service-task"]
+	path = projects/terraform/terraform-aws-ecs-alb-service-task
+	url = git@github.com:cloudposse/terraform-aws-ecs-alb-service-task.git
+[submodule "projects/terraform/terraform-aws-ecs-cloudwatch-autoscaling"]
+	path = projects/terraform/terraform-aws-ecs-cloudwatch-autoscaling
+	url = git@github.com:cloudposse/terraform-aws-ecs-cloudwatch-autoscaling.git
+[submodule "projects/terraform/terraform-aws-ecs-cloudwatch-sns-alarms"]
+	path = projects/terraform/terraform-aws-ecs-cloudwatch-sns-alarms
+	url = git@github.com:cloudposse/terraform-aws-ecs-cloudwatch-sns-alarms.git
+[submodule "projects/terraform/terraform-aws-ecs-codepipeline"]
+	path = projects/terraform/terraform-aws-ecs-codepipeline
+	url = git@github.com:cloudposse/terraform-aws-ecs-codepipeline.git
+[submodule "projects/terraform/terraform-aws-ecs-events"]
+	path = projects/terraform/terraform-aws-ecs-events
+	url = git@github.com:cloudposse/terraform-aws-ecs-events.git
+[submodule "projects/terraform/terraform-aws-ecs-launch-template"]
+	path = projects/terraform/terraform-aws-ecs-launch-template
+	url = git@github.com:cloudposse/terraform-aws-ecs-launch-template.git
+[submodule "projects/terraform/terraform-aws-ecs-spot-fleet"]
+	path = projects/terraform/terraform-aws-ecs-spot-fleet
+	url = git@github.com:cloudposse/terraform-aws-ecs-spot-fleet.git
+[submodule "projects/terraform/terraform-aws-ecs-web-app"]
+	path = projects/terraform/terraform-aws-ecs-web-app
+	url = git@github.com:cloudposse/terraform-aws-ecs-web-app.git
+[submodule "projects/terraform/terraform-aws-efs"]
+	path = projects/terraform/terraform-aws-efs
+	url = git@github.com:cloudposse/terraform-aws-efs.git
+[submodule "projects/terraform/terraform-aws-efs-backup"]
+	path = projects/terraform/terraform-aws-efs-backup
+	url = git@github.com:cloudposse/terraform-aws-efs-backup.git
+[submodule "projects/terraform/terraform-aws-efs-cloudwatch-sns-alarms"]
+	path = projects/terraform/terraform-aws-efs-cloudwatch-sns-alarms
+	url = git@github.com:cloudposse/terraform-aws-efs-cloudwatch-sns-alarms.git
+[submodule "projects/terraform/terraform-aws-eks-cluster"]
+	path = projects/terraform/terraform-aws-eks-cluster
+	url = git@github.com:cloudposse/terraform-aws-eks-cluster.git
+[submodule "projects/terraform/terraform-aws-eks-workers"]
+	path = projects/terraform/terraform-aws-eks-workers
+	url = git@github.com:cloudposse/terraform-aws-eks-workers.git
+[submodule "projects/terraform/terraform-aws-elastic-beanstalk-application"]
+	path = projects/terraform/terraform-aws-elastic-beanstalk-application
+	url = git@github.com:cloudposse/terraform-aws-elastic-beanstalk-application.git
+[submodule "projects/terraform/terraform-aws-elastic-beanstalk-environment"]
+	path = projects/terraform/terraform-aws-elastic-beanstalk-environment
+	url = git@github.com:cloudposse/terraform-aws-elastic-beanstalk-environment.git
+[submodule "projects/terraform/terraform-aws-elasticache-cloudwatch-sns-alarms"]
+	path = projects/terraform/terraform-aws-elasticache-cloudwatch-sns-alarms
+	url = git@github.com:cloudposse/terraform-aws-elasticache-cloudwatch-sns-alarms.git
+[submodule "projects/terraform/terraform-aws-elasticache-memcached"]
+	path = projects/terraform/terraform-aws-elasticache-memcached
+	url = git@github.com:cloudposse/terraform-aws-elasticache-memcached.git
+[submodule "projects/terraform/terraform-aws-elasticache-redis"]
+	path = projects/terraform/terraform-aws-elasticache-redis
+	url = git@github.com:cloudposse/terraform-aws-elasticache-redis.git
+[submodule "projects/terraform/terraform-aws-elasticsearch"]
+	path = projects/terraform/terraform-aws-elasticsearch
+	url = git@github.com:cloudposse/terraform-aws-elasticsearch.git
+[submodule "projects/terraform/terraform-aws-iam-assumed-roles"]
+	path = projects/terraform/terraform-aws-iam-assumed-roles
+	url = git@github.com:cloudposse/terraform-aws-iam-assumed-roles.git
+[submodule "projects/terraform/terraform-aws-iam-chamber-user"]
+	path = projects/terraform/terraform-aws-iam-chamber-user
+	url = git@github.com:cloudposse/terraform-aws-iam-chamber-user.git
+[submodule "projects/terraform/terraform-aws-iam-s3-user"]
+	path = projects/terraform/terraform-aws-iam-s3-user
+	url = git@github.com:cloudposse/terraform-aws-iam-s3-user.git
+[submodule "projects/terraform/terraform-aws-iam-system-user"]
+	path = projects/terraform/terraform-aws-iam-system-user
+	url = git@github.com:cloudposse/terraform-aws-iam-system-user.git
+[submodule "projects/terraform/terraform-aws-jenkins"]
+	path = projects/terraform/terraform-aws-jenkins
+	url = git@github.com:cloudposse/terraform-aws-jenkins.git
+[submodule "projects/terraform/terraform-aws-key-pair"]
+	path = projects/terraform/terraform-aws-key-pair
+	url = git@github.com:cloudposse/terraform-aws-key-pair.git
+[submodule "projects/terraform/terraform-aws-kms-key"]
+	path = projects/terraform/terraform-aws-kms-key
+	url = git@github.com:cloudposse/terraform-aws-kms-key.git
+[submodule "projects/terraform/terraform-aws-kops-chart-repo"]
+	path = projects/terraform/terraform-aws-kops-chart-repo
+	url = git@github.com:cloudposse/terraform-aws-kops-chart-repo.git
+[submodule "projects/terraform/terraform-aws-kops-ecr"]
+	path = projects/terraform/terraform-aws-kops-ecr
+	url = git@github.com:cloudposse/terraform-aws-kops-ecr.git
+[submodule "projects/terraform/terraform-aws-kops-external-dns"]
+	path = projects/terraform/terraform-aws-kops-external-dns
+	url = git@github.com:cloudposse/terraform-aws-kops-external-dns.git
+[submodule "projects/terraform/terraform-aws-kops-metadata"]
+	path = projects/terraform/terraform-aws-kops-metadata
+	url = git@github.com:cloudposse/terraform-aws-kops-metadata.git
+[submodule "projects/terraform/terraform-aws-kops-route53"]
+	path = projects/terraform/terraform-aws-kops-route53
+	url = git@github.com:cloudposse/terraform-aws-kops-route53.git
+[submodule "projects/terraform/terraform-aws-kops-state-backend"]
+	path = projects/terraform/terraform-aws-kops-state-backend
+	url = git@github.com:cloudposse/terraform-aws-kops-state-backend.git
+[submodule "projects/terraform/terraform-aws-kops-vault-backend"]
+	path = projects/terraform/terraform-aws-kops-vault-backend
+	url = git@github.com:cloudposse/terraform-aws-kops-vault-backend.git
+[submodule "projects/terraform/terraform-aws-kops-vpc-peering"]
+	path = projects/terraform/terraform-aws-kops-vpc-peering
+	url = git@github.com:cloudposse/terraform-aws-kops-vpc-peering.git
+[submodule "projects/terraform/terraform-aws-lambda-cloudwatch-sns-alarms"]
+	path = projects/terraform/terraform-aws-lambda-cloudwatch-sns-alarms
+	url = git@github.com:cloudposse/terraform-aws-lambda-cloudwatch-sns-alarms.git
+[submodule "projects/terraform/terraform-aws-multi-az-subnets"]
+	path = projects/terraform/terraform-aws-multi-az-subnets
+	url = git@github.com:cloudposse/terraform-aws-multi-az-subnets.git
+[submodule "projects/terraform/terraform-aws-named-subnets"]
+	path = projects/terraform/terraform-aws-named-subnets
+	url = git@github.com:cloudposse/terraform-aws-named-subnets.git
+[submodule "projects/terraform/terraform-aws-organization-access-group"]
+	path = projects/terraform/terraform-aws-organization-access-group
+	url = git@github.com:cloudposse/terraform-aws-organization-access-group.git
+[submodule "projects/terraform/terraform-aws-organization-access-role"]
+	path = projects/terraform/terraform-aws-organization-access-role
+	url = git@github.com:cloudposse/terraform-aws-organization-access-role.git
+[submodule "projects/terraform/terraform-aws-rds"]
+	path = projects/terraform/terraform-aws-rds
+	url = git@github.com:cloudposse/terraform-aws-rds.git
+[submodule "projects/terraform/terraform-aws-rds-cloudwatch-sns-alarms"]
+	path = projects/terraform/terraform-aws-rds-cloudwatch-sns-alarms
+	url = git@github.com:cloudposse/terraform-aws-rds-cloudwatch-sns-alarms.git
+[submodule "projects/terraform/terraform-aws-route53-alias"]
+	path = projects/terraform/terraform-aws-route53-alias
+	url = git@github.com:cloudposse/terraform-aws-route53-alias.git
+[submodule "projects/terraform/terraform-aws-route53-cluster-hostname"]
+	path = projects/terraform/terraform-aws-route53-cluster-hostname
+	url = git@github.com:cloudposse/terraform-aws-route53-cluster-hostname.git
+[submodule "projects/terraform/terraform-aws-route53-cluster-zone"]
+	path = projects/terraform/terraform-aws-route53-cluster-zone
+	url = git@github.com:cloudposse/terraform-aws-route53-cluster-zone.git
+[submodule "projects/terraform/terraform-aws-s3-log-storage"]
+	path = projects/terraform/terraform-aws-s3-log-storage
+	url = git@github.com:cloudposse/terraform-aws-s3-log-storage.git
+[submodule "projects/terraform/terraform-aws-s3-logs-athena-query"]
+	path = projects/terraform/terraform-aws-s3-logs-athena-query
+	url = git@github.com:cloudposse/terraform-aws-s3-logs-athena-query.git
+[submodule "projects/terraform/terraform-aws-s3-website"]
+	path = projects/terraform/terraform-aws-s3-website
+	url = git@github.com:cloudposse/terraform-aws-s3-website.git
+[submodule "projects/terraform/terraform-aws-ses-lambda-forwarder"]
+	path = projects/terraform/terraform-aws-ses-lambda-forwarder
+	url = git@github.com:cloudposse/terraform-aws-ses-lambda-forwarder.git
+[submodule "projects/terraform/terraform-aws-sns-lambda-notify-slack"]
+	path = projects/terraform/terraform-aws-sns-lambda-notify-slack
+	url = git@github.com:cloudposse/terraform-aws-sns-lambda-notify-slack.git
+[submodule "projects/terraform/terraform-aws-sqs-cloudwatch-sns-alarms"]
+	path = projects/terraform/terraform-aws-sqs-cloudwatch-sns-alarms
+	url = git@github.com:cloudposse/terraform-aws-sqs-cloudwatch-sns-alarms.git
+[submodule "projects/terraform/terraform-aws-ssm-iam-role"]
+	path = projects/terraform/terraform-aws-ssm-iam-role
+	url = git@github.com:cloudposse/terraform-aws-ssm-iam-role.git
+[submodule "projects/terraform/terraform-aws-ssm-parameter-store"]
+	path = projects/terraform/terraform-aws-ssm-parameter-store
+	url = git@github.com:cloudposse/terraform-aws-ssm-parameter-store.git
+[submodule "projects/terraform/terraform-aws-ssm-parameter-store-policy-documents"]
+	path = projects/terraform/terraform-aws-ssm-parameter-store-policy-documents
+	url = git@github.com:cloudposse/terraform-aws-ssm-parameter-store-policy-documents.git
+[submodule "projects/terraform/terraform-aws-tfstate-backend"]
+	path = projects/terraform/terraform-aws-tfstate-backend
+	url = git@github.com:cloudposse/terraform-aws-tfstate-backend.git
+[submodule "projects/terraform/terraform-aws-user-data-assets"]
+	path = projects/terraform/terraform-aws-user-data-assets
+	url = git@github.com:cloudposse/terraform-aws-user-data-assets.git
+[submodule "projects/terraform/terraform-aws-user-data-cloud"]
+	path = projects/terraform/terraform-aws-user-data-cloud
+	url = git@github.com:cloudposse/terraform-aws-user-data-cloud.git
+[submodule "projects/terraform/terraform-aws-user-data-dba"]
+	path = projects/terraform/terraform-aws-user-data-dba
+	url = git@github.com:cloudposse/terraform-aws-user-data-dba.git
+[submodule "projects/terraform/terraform-aws-user-data-dns-proxy"]
+	path = projects/terraform/terraform-aws-user-data-dns-proxy
+	url = git@github.com:cloudposse/terraform-aws-user-data-dns-proxy.git
+[submodule "projects/terraform/terraform-aws-user-data-resolv-conf"]
+	path = projects/terraform/terraform-aws-user-data-resolv-conf
+	url = git@github.com:cloudposse/terraform-aws-user-data-resolv-conf.git
+[submodule "projects/terraform/terraform-aws-user-data-s3-backend"]
+	path = projects/terraform/terraform-aws-user-data-s3-backend
+	url = git@github.com:cloudposse/terraform-aws-user-data-s3-backend.git
+[submodule "projects/terraform/terraform-aws-vpc"]
+	path = projects/terraform/terraform-aws-vpc
+	url = git@github.com:cloudposse/terraform-aws-vpc.git
+[submodule "projects/terraform/terraform-aws-vpc-peering"]
+	path = projects/terraform/terraform-aws-vpc-peering
+	url = git@github.com:cloudposse/terraform-aws-vpc-peering.git
+[submodule "projects/terraform/terraform-datadog-monitor"]
+	path = projects/terraform/terraform-datadog-monitor
+	url = git@github.com:cloudposse/terraform-datadog-monitor.git
+[submodule "projects/terraform/terraform-null-ansible"]
+	path = projects/terraform/terraform-null-ansible
+	url = git@github.com:cloudposse/terraform-null-ansible.git
+[submodule "projects/terraform/terraform-template-user-data-github-authorized-keys"]
+	path = projects/terraform/terraform-template-user-data-github-authorized-keys
+	url = git@github.com:cloudposse/terraform-template-user-data-github-authorized-keys.git
+[submodule "projects/terraform/terraform-template-user-data-nfs"]
+	path = projects/terraform/terraform-template-user-data-nfs
+	url = git@github.com:cloudposse/terraform-template-user-data-nfs.git
+[submodule "projects/terraform/terraform-tls-ssh-key-pair"]
+	path = projects/terraform/terraform-tls-ssh-key-pair
+	url = git@github.com:cloudposse/terraform-tls-ssh-key-pair.git
