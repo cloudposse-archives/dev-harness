@@ -68,12 +68,6 @@ quickstart: |-
   git clone --recursive git@github.com:cloudposse/dev.git
   ```
 
-  Initialize the [`build-harness`](https://github.com/cloudposse/build-harness):
-
-  ```
-  make init
-  ```
-
   Install native dependencies (e.g. `chamber` and `aws-vault`)
 
   ```
@@ -83,7 +77,7 @@ quickstart: |-
   Update current submodules in `projects/` folder to `@HEAD`
 
   ```
-  make git/update
+  make git/submodules-update
   ```
 
   List available `make` targets

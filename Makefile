@@ -1,4 +1,4 @@
-export BUILD_HARNESS_PATH ?= projects/tools/build-harness
+export BUILD_HARNESS_PATH ?= $(shell 'pwd')/projects/tools/build-harness
 
 include $(BUILD_HARNESS_PATH)/Makefile
 
