@@ -75,26 +75,6 @@ List available `make` targets
 make help
 ```
 
-Bring up a complete environment: (*without* secrets)
-
-```
-make compose/up
-```
-
-Bring up a complete environment: (*with* secrets)
-
-```
-aws-vault exec cp-dev-admin -- chamber exec local -- make compose/up
-```
-
-**NOTE**: `local` represents a secrets service namespace. Multiple namespaces can be specified. 
-
-Destroy current environment:
-
-```
-make compose/down
-```
-
 ## Submodules
 
 Add a new submodule:
