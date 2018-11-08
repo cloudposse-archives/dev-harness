@@ -13,7 +13,7 @@ do
         git add .
         git commit -m "Regenerate README.md"
         git push -u origin regenerate-readme
-        hub pull-request -r osterman -F ../../../scripts/PULL-REQUEST-DESCRIPTION.md
+        hub pull-request -r osterman -F ../../../templates/PULL-REQUEST-DESCRIPTION.md
     )
     fi
 done
