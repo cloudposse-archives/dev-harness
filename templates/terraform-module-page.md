@@ -14,9 +14,9 @@ description: |-
 |:-----------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | GitHub Repo      | <https://github.com/{{ (ds "config").github_repo }}>                                                                                                                                    |
 | Terraform Module | {{ (ds "config").name }}                                                                                                                                             |
-{{ range $badge := (ds "config").badges }}
+{{- range $badge := (ds "config").badges }}
 | {{ $badge.name }} | {{ printf "[![%s](%s)](%s)" $badge.name $badge.image $badge.url }}                                                                                                                                        |
-{{ end }}
+{{- end }}
 
 {{ if has (ds "config") "description" }}
 {{ (ds "config").description }}
